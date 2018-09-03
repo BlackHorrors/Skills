@@ -1,0 +1,52 @@
+.list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 10px;
+  justify-content: space-around;
+}
+ .form{
+   margin: 10px;
+   padding-bottom: 20px;
+ }
+ .ui button{
+   width: inherit;
+ }
+ .main{
+height: 100%;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+ }
+ .nav{
+   display: flex;
+   min-height: 100vh;
+   min-width: 100vh;
+   background:url("../../images/7.jpg") no-repeat;
+   align-items:center;
+   justify-content: center;
+ }
+ .header{
+   height:90px;
+   display: block;
+   font-size: 34px;
+padding-bottom: 20px;
+      opacity: 0.8;
+     cursor: pointer;
+   text-align: center;
+ }
+.header-list{
+  padding-left: 23px;
+  margin: 4px;
+  height: inherit;
+  width: auto;
+  display: flex;
+  flex-direction:row;
+  list-style:none;
+  justify-content:center;
+  animation: fade .5s ;
+}
+.list-item{
+  padding-left: 20px;
+  padding-top: 50px;
+}

@@ -17,7 +17,7 @@ class App extends Component {
             <Router>
                 <div className="wrapper">
                     <Header/>
-                    <main className="main">
+                    <main className="nav">
                         <Route exact path='/' component={Home}/>
                         <Route path="/createdir" component={CreateDirection}/>
                         <Route path="/createskills" component={Skills}/>

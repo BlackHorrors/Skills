@@ -63,12 +63,13 @@ class Skills extends Component {
         event.preventDefault()
         let  dirID = {...this.state.activeDirectionKey}
         let  skill = {...this.state.skill}
-        db.ref('directions').child(dirID.hash).set(skill);
-        console.log(dirID, skill);
+        const skillID = db.ref(). push().key ;
+        console.log(dirID.hash,'skillId', skillID);
+        db.ref('directions').child(dirID.hash).child(skillID).set(skill);
     }
     render() {
         return (
-            <div>
+            <div className="list">
                 <Form onSubmit={this.submit} >
                     <Form.Field>
                         <Label>Name</Label>

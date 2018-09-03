@@ -4,15 +4,15 @@ import {Link} from 'react-router-dom'
 
 function Header() {
     return (
-        <div>
-            <ul>
-                <li>
+        <div className="header">
+            <ul className="header-list">
+                <li className="list-item">
                     <Link to="/">Home</Link>
                 </li>
-                <li>
+                <li className="list-item">
                     <Link to="/createdir">Direction</Link>
                 </li>
-                <li>
+                <li className="list-item">
                     <Link to="/createskills">Skills</Link>
                 </li>
             </ul>
